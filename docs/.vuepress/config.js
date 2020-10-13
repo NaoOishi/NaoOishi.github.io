@@ -29,7 +29,7 @@ module.exports = {
     }
   },
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
-  theme: 'modern-blog',
+  theme: "modern-blog",
   themeConfig: {
     smoothScroll: true,
     searchPlaceholder: "Search...",
