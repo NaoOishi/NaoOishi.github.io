@@ -1,35 +1,16 @@
 {
-  "name": "naooishi.github.io",
+  "name": "NaoOishi.github.io",
   "version": "1.0.0",
   "description": "github.io",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "eject": "vuepress eject docs",
-    "build": "vuepress build docs",
-    "lint": "eslint --ext .js,.vue --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NaoOishi/NaoOishi.github.io.git"
-  },
+  "main": "index.js",
+  "repository": "git@github.com:NaoOishi/NaoOishi.github.io.git",
   "author": "NaoOishi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NaoOishi/NaoOishi.github.io/issues"
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "homepage": "https://github.com/NaoOishi/NaoOishi.github.io#readme",
   "devDependencies": {
-    "vuepress": "^1.6.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "prettier": "^1.18.2",
-    "vuepress-plugin-element-tabs": "^0.2.8"
-  },
-  "dependencies": {
-    "markdown-it-sub": "^1.0.0",
-    "sanitize-html": "^1.21.1"
+    "vuepress": "^1.6.0"
   }
 }
